@@ -1,0 +1,49 @@
+texture-size: 32
+wrap-x: false
+wrap-y: false
+model: ae2:part/cable/dense_smart/straight
+blend-mode: cutout
+normal:
+  noise: 0.5
+  method: sobel-low
+  strength: 2.5181
+f0:
+  value: 0.04
+filters:
+- name: Core
+  left: 0.1875
+  top: 0.1875
+  width: 0.625
+  height: 0.625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5
+- name: Base-up
+  left: 0.1875
+  top: 0
+  width: 0.625
+  height: 0.1875
+  normal-curve-x: 90
+  normal-radius-x: 0.5
+- name: Base-down
+  left: 0.1875
+  top: 0.8125
+  width: 0.625
+  height: 0.1875
+  normal-curve-x: 90
+  normal-radius-x: 0.5
+- name: Base-west
+  left: 0
+  top: 0.1875
+  width: 0.1875
+  height: 0.625
+  normal-curve-y: 90
+  normal-radius-y: 0.5
+- name: Base-east
+  left: 0.8125
+  top: 0.1875
+  width: 0.1875
+  height: 0.625
+  normal-curve-y: 90
+  normal-radius-y: 0.5

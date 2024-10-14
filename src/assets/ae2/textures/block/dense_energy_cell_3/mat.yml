@@ -1,0 +1,23 @@
+wrap-x: false
+wrap-y: false
+height:
+  texture: ../dense_energy_cell_template/height.png
+normal:
+  texture: ../dense_energy_cell_template/normal.png
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.25
+  radius-y: 0.25
+  noise: 0.5
+  method: sobel-low
+  strength: 2
+occlusion:
+  texture: ../dense_energy_cell_template/occlusion.png
+smooth:
+  texture: ../dense_energy_cell_template/smooth.png
+hcm:
+  texture: ../dense_energy_cell_template/hcm.png
+f0:
+  value: 0.04
+emissive:
+  texture: ../dense_energy_cell_template/emissive.png

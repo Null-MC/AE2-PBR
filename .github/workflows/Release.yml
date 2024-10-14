@@ -1,0 +1,56 @@
+name: Release
+on: workflow_dispatch
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Compile LabPBR
+        uses: null511/PixelGraph.GitHubAction@main
+        with:
+          project: src/project.yml
+          profile: AE2-LabPBR
+          zip: AE2-LabPBR-v${{ github.run_number }}.zip
+      - name: Compile OldPBR
+        uses: null511/PixelGraph.GitHubAction@main
+        with:
+          project: src/project.yml
+          profile: AE2-OldPBR
+          zip: AE2-OldPBR-v${{ github.run_number }}.zip
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true
+          prerelease: true
+          generate_release_notes: true
+          make_latest: "true"
+          name: Release ${{ github.run_number }}
+          tag_name: v${{ github.run_number }}
+          files: |
+            AE2-LabPBR-v${{ github.run_number }}.zip
+            AE2-OldPBR-v${{ github.run_number }}.zip
+      # - name: Publish to CurseForge, Modrinth
+      #   uses: Kir-Antipov/mc-publish@v3.3
+      #   with:
+      #     name: AE2-PBR v${{ github.run_number }}
+      #     version: v${{ github.run_number }}
+      #     version-type: beta
+      #     changelog: "###Release v${{ github.run_number }}"
+      #     modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+      #     modrinth-id: <TODO>
+      #     modrinth-featured: true
+      #     modrinth-loaders: minecraft
+      #     curseforge-token: ${{ secrets.CF_API_TOKEN }}
+      #     curseforge-id: <TODO>
+      #     loaders: |
+      #       fabric
+      #       forge
+      #       quilt
+      #     files: |
+      #       AE2-LabPBR-v${{ github.run_number }}.zip
+      #       AE2-OldPBR-v${{ github.run_number }}.zip

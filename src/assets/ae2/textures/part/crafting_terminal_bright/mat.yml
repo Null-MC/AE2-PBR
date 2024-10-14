@@ -1,0 +1,7 @@
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+color:
+  value: '#FFFFFF'
+emissive:
+  scale: 0.2

@@ -1,0 +1,20 @@
+wrap-x: false
+wrap-y: false
+normal:
+  curve-x: 70
+  curve-y: 70
+  radius-x: 0.2
+  radius-y: 0.2
+  noise: 0.5
+f0:
+  value: 0.067
+sss:
+  value: 0.2
+filters:
+- name: curve
+  left: 0
+  top: 0
+  width: 1
+  height: 1
+  normal-curve-x: 20
+  normal-curve-y: 20

@@ -1,0 +1,56 @@
+wrap-x: false
+wrap-y: false
+model: ae2:block/crystal_resonance_generator
+blend-mode: cutout
+normal:
+  noise: 0.5
+hcm:
+  value: 255
+filters:
+- name: Rod-up
+  left: 0.125
+  top: 0.125
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2
+- name: Base-up
+  left: 0
+  top: 0
+  width: 0.75
+  height: 0.75
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.2
+- name: Base-north
+  left: 0
+  top: 0.75
+  width: 0.75
+  height: 0.25
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.2
+  normal-radius-y: 0.4
+- name: Fin-south
+  left: 0.9375
+  top: 0
+  width: 0.0625
+  height: 0.875
+- name: Fin-side
+  left: 0.75
+  top: 0
+  width: 0.25
+  height: 0.875
+- name: Fin-up
+  left: 0.75
+  top: 0
+  width: 0.25
+  height: 0.0625
+- name: Fin-down
+  left: 0.75
+  top: 0.8125
+  width: 0.25
+  height: 0.0625

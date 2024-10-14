@@ -1,0 +1,7 @@
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+normal:
+  strength: 0.01
+emissive:
+  value: 0.2

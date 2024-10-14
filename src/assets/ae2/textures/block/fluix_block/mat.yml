@@ -1,0 +1,12 @@
+height:
+  scale: 0
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.25
+  radius-y: 0.25
+  strength: 0.5
+f0:
+  value: 0.07
+sss:
+  value: 0.6

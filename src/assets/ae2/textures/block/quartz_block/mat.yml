@@ -1,0 +1,8 @@
+normal:
+  noise: 12
+  method: sobel3
+  strength: 2.3618
+hcm:
+  value: 255
+sss:
+  value: 0.4

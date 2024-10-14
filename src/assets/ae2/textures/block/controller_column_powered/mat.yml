@@ -1,0 +1,8 @@
+wrap-x: false
+normal:
+  curve-x: 90
+  radius-x: 0.2
+  noise: 0.5
+  strength: 0.01
+hcm:
+  value: 255

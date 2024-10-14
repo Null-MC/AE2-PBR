@@ -1,0 +1,26 @@
+wrap-x: false
+wrap-y: false
+model: ae2:part/cable/glass/straight
+blend-mode: cutout
+normal:
+  noise: 1
+  strength: 0.01
+smooth:
+  value: 0.92
+f0:
+  value: 0.04
+sss:
+  value: 0.6
+filters:
+- name: H
+  left: 0
+  top: 0.375
+  width: 1
+  height: 0.25
+  normal-curve-y: 90
+- name: V
+  left: 0.375
+  top: 0
+  width: 0.25
+  height: 1
+  normal-curve-x: 90

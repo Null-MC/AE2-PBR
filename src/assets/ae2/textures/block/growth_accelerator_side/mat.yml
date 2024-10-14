@@ -1,0 +1,13 @@
+wrap-x: false
+wrap-y: false
+model: ae2:block/growth_accelerator_off
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-y: 0.2
+  method: sobel-low
+  strength: 2
+f0:
+  value: 0.067
+sss:
+  scale: 0.5

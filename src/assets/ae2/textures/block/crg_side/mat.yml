@@ -1,0 +1,8 @@
+wrap-x: false
+wrap-y: false
+model: ae2:block/crystal_resonance_generator
+blend-mode: cutout
+smooth:
+  value: 0.808
+hcm:
+  value: 255

@@ -1,0 +1,8 @@
+texture-size: 64
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+color:
+  value: '#FFFFFF'
+emissive:
+  value: 0.4

@@ -1,0 +1,8 @@
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+normal:
+  method: sobel-low
+  strength: 0.01
+f0:
+  value: 0.04

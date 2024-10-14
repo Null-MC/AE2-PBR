@@ -1,0 +1,10 @@
+wrap-x: false
+wrap-y: false
+model: ae2:block/crystal_resonance_generator
+blend-mode: cutout
+normal:
+  noise: 0.5
+  method: sobel-low
+  strength: 1.6167
+emissive:
+  scale: 0.2

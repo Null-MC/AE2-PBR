@@ -1,0 +1,5 @@
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+emissive:
+  scale: 0.1
