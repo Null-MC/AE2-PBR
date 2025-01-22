@@ -5,4 +5,4 @@ blend-mode: cutout
 color:
   value: '#FFFFFF'
 emissive:
-  value: 0.2
+  value: 0.08

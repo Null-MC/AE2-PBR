@@ -3,4 +3,4 @@ blend-mode: cutout
 normal:
   strength: 0.01
 emissive:
-  value: 0.2
+  value: 0.1

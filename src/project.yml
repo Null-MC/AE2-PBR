@@ -3,9 +3,16 @@ input:
   format: raw
 profiles:
 - edition: Java
-  format: 9
+  format: 15
   name: AE2-LabPbr
-  description: A short description of the RP content.
+  description: LAB-PBR
   encoding:
     format: lab-1.3
+  texture-size: 16
+- edition: Java
+  format: 15
+  name: AE2-OldPbr
+  description: OLD-PBR
+  encoding:
+    format: old-pbr
   texture-size: 16
