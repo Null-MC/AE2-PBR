@@ -1,0 +1,7 @@
+wrap-x: false
+wrap-y: false
+blend-mode: transparent
+normal:
+  noise: 9
+emissive:
+  value: 0.8

@@ -1,0 +1,7 @@
+wrap-x: false
+wrap-y: false
+blend-mode: cutout
+color:
+  value: '#51C2FF'
+emissive:
+  value: 0.8

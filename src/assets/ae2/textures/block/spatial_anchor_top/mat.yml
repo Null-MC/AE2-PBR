@@ -1,0 +1,5 @@
+wrap-x: false
+wrap-y: false
+model: ae2:block/spatial_anchor_on
+emissive:
+  scale: 0.4

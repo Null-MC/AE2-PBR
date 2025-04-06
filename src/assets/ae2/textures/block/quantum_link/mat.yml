@@ -1,0 +1,8 @@
+wrap-x: false
+wrap-y: false
+model: ae2:block/qnb/link
+blend-mode: cutout
+normal:
+  noise: 1
+  method: sobel3
+  strength: 0.01
