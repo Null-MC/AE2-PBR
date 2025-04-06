@@ -22,35 +22,29 @@ jobs:
           project: src/project.yml
           profile: AE2-OldPBR
           zip: AE2-OldPBR-v${{ github.run_number }}.zip
-      - name: Release
-        uses: softprops/action-gh-release@v2
+      - name: Publish to Modrinth
+        uses: Kir-Antipov/mc-publish@v3.3
         with:
-          draft: true
-          prerelease: true
-          generate_release_notes: true
-          make_latest: "true"
-          name: Release ${{ github.run_number }}
-          tag_name: v${{ github.run_number }}
+          name: AE2-PBR v${{ github.run_number }}
+          version: v${{ github.run_number }}
+          version-type: beta
+          changelog: "TODO"
+          loaders: |
+            fabric
+            forge
+            quilt
           files: |
             AE2-LabPBR-v${{ github.run_number }}.zip
             AE2-OldPBR-v${{ github.run_number }}.zip
-      # - name: Publish to CurseForge, Modrinth
-      #   uses: Kir-Antipov/mc-publish@v3.3
-      #   with:
-      #     name: AE2-PBR v${{ github.run_number }}
-      #     version: v${{ github.run_number }}
-      #     version-type: beta
-      #     changelog: "###Release v${{ github.run_number }}"
-      #     modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-      #     modrinth-id: <TODO>
-      #     modrinth-featured: true
-      #     modrinth-loaders: minecraft
-      #     curseforge-token: ${{ secrets.CF_API_TOKEN }}
-      #     curseforge-id: <TODO>
-      #     loaders: |
-      #       fabric
-      #       forge
-      #       quilt
-      #     files: |
-      #       AE2-LabPBR-v${{ github.run_number }}.zip
-      #       AE2-OldPBR-v${{ github.run_number }}.zip
+          game-versions: '>=1.16'
+          game-version-filter: none
+          modrinth-id: 5x1MHOKX
+          modrinth-featured: true
+          modrinth-loaders: minecraft
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          github-draft: true
+          github-prerelease: true
+          github-tag: v${{ github.run_number }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          dependencies: |
+            ae2(optional){modrinth:XxWD5pD3}
