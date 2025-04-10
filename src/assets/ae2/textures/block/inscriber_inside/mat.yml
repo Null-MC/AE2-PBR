@@ -1,0 +1,7 @@
+wrap-x: false
+wrap-y: false
+model: ae2:block/inscriber
+normal:
+  noise: 1
+  method: sobel-high
+  strength: 2.5

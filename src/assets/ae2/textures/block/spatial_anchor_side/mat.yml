@@ -1,6 +1,6 @@
 wrap-x: false
 wrap-y: false
-model: ae2:block/spatial_anchor
+model: ae2:block/spatial_anchor_on
 normal:
   curve-x: 90
   curve-y: 90
@@ -9,7 +9,7 @@ normal:
   method: sobel-high
   strength: 2
 emissive:
-  scale: 0.4
+  scale: 0.2
 filters:
 - name: glass
   left: 0.1875

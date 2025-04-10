@@ -1,0 +1,12 @@
+wrap-x: false
+wrap-y: false
+model: ae2:block/inscriber
+height:
+  scale: 0
+normal:
+  noise: 1
+  method: sobel-low
+  strength: 2
+emissive:
+  scale: 0.1
+filters: []

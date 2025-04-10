@@ -9,7 +9,7 @@ normal:
   method: sobel-low
   strength: 2
 emissive:
-  scale: 0.4
+  scale: 0.2
 filters:
 - name: center
   left: 0.25

@@ -1,6 +1,6 @@
 wrap-x: false
 wrap-y: false
-model: ae2:block/spatial_anchor_on
+model: ae2:block/spatial_anchor
 normal:
   curve-x: 90
   curve-y: 90
