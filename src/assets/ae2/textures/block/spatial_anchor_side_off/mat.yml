@@ -1,1 +1,20 @@
-{}
+wrap-x: false
+wrap-y: false
+model: ae2:block/spatial_anchor_on
+normal:
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.2
+  radius-y: 0.2
+  method: sobel-high
+  strength: 2
+emissive:
+  scale: 0.4
+filters:
+- name: glass
+  left: 0.1875
+  top: 0.1875
+  width: 0.625
+  height: 0.3125
+  normal-curve-x: 60
+  normal-curve-y: 60
