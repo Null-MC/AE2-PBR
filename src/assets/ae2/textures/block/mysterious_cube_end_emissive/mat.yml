@@ -1,0 +1,5 @@
+wrap-x: false
+wrap-y: false
+model: ae2:block/mysterious_cube
+emissive:
+  value: 0.4

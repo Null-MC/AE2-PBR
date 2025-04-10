@@ -1,0 +1,7 @@
+wrap-x: false
+wrap-y: false
+occlusion:
+  value: 1
+emissive:
+  shift: 0.1
+  scale: 0.6
