@@ -8,7 +8,7 @@ normal:
 sss:
   scale: 0.3
 emissive:
-  scale: 0.05
+  scale: 0.5
 filters:
 - name: center
   left: 0.1875

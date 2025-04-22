@@ -1,7 +1,9 @@
 wrap-x: false
 wrap-y: false
 blend-mode: cutout
-normal:
-  strength: 0.01
+f0:
+  value: 0.059
+sss:
+  value: 0.5
 emissive:
-  value: 0.082
+  scale: 0.2
