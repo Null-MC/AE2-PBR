@@ -1,2 +1,4 @@
 normal:
   noise: 6
+porosity:
+  value: 0.4

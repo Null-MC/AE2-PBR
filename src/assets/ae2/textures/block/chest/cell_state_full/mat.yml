@@ -1,0 +1,11 @@
+wrap-x: false
+wrap-y: false
+color:
+  value: '#FF0000'
+smooth:
+  value: 0.9
+f0:
+  value: 0.04
+emissive:
+  value: 0.3
+blend-mode: cutout
