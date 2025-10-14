@@ -1,0 +1,8 @@
+normal:
+  noise: 0.5
+smooth:
+  value: 0.92
+f0:
+  value: 0.04
+model: ae2:part/annihilation_plane_on
+filters: []

@@ -11,7 +11,7 @@ normal:
 f0:
   value: 0.053
 emissive:
-  scale: 0.04
+  scale: 0.05
 filters:
 - name: center
   left: 0.1875

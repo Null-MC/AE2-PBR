@@ -1,0 +1,9 @@
+wrap-x: false
+wrap-y: false
+normal:
+  strength: 4
+  method: sobel-low
+  noise: 1
+emissive:
+  scale: 0.2
+blend-mode: cutout
