@@ -1,0 +1,15 @@
+wrap-x: false
+wrap-y: false
+height:
+  scale: 0
+normal:
+  strength: 2
+  method: sobel-low
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.25
+  radius-y: 0.25
+f0:
+  value: 0.053
+model: ae2:block/molecular_assembler
+blend-mode: cutout

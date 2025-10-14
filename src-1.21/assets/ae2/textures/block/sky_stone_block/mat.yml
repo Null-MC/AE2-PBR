@@ -1,0 +1,13 @@
+height:
+  shift: -0.14
+  scale: 0.6
+  auto-level: false
+normal:
+  method: sobel-high
+  noise: 7
+smooth:
+  shift: -0.1
+f0:
+  value: 0.082
+porosity:
+  value: 0.2

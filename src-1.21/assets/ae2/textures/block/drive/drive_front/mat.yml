@@ -1,0 +1,5 @@
+wrap-x: false
+wrap-y: false
+emissive:
+  scale: 0.1
+model: ae2:block/drive/drive_base

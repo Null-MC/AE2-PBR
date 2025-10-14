@@ -1,0 +1,9 @@
+wrap-x: false
+wrap-y: false
+occlusion:
+  value: 1
+f0:
+  value: 0
+emissive:
+  value: 0.08
+blend-mode: cutout

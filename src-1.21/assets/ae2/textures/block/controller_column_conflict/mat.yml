@@ -1,0 +1,4 @@
+wrap-x: false
+blend-mode: cutout
+normal:
+  strength: 0.01

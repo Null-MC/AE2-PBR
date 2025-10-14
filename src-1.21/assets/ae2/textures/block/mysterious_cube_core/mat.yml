@@ -1,0 +1,11 @@
+wrap-x: false
+wrap-y: false
+height:
+  shift: -0.14
+  scale: 0.6
+normal:
+  noise: 2
+f0:
+  value: 0.053
+emissive:
+  scale: 0.1

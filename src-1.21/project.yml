@@ -1,5 +1,5 @@
-name: AE2-PBR
-description: PBR for Applied Energistics 2
+name: AE2-PBR-1.21
+description: PBR for Applied Energistics 2 [1.21.1]
 author: Joshua Miller
 input:
   format: raw

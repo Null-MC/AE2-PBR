@@ -1,0 +1,9 @@
+wrap-x: false
+normal:
+  strength: 0.01
+  noise: 0.5
+  curve-x: 90
+  radius-x: 0.2
+f0:
+  value: 0.053
+blend-mode: cutout

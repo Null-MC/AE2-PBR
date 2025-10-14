@@ -1,0 +1,24 @@
+wrap-x: false
+wrap-y: false
+normal:
+  method: sobel-high
+  noise: 1
+filters:
+- name: top
+  left: 0
+  top: 0
+  width: 1
+  height: 0.5625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.25
+  normal-radius-y: 0.45
+- name: bottom
+  left: 0
+  top: 0.5625
+  width: 1
+  height: 0.4375
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.25
+  normal-radius-y: 0.55

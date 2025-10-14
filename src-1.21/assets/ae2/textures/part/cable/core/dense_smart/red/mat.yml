@@ -1,0 +1,15 @@
+wrap-x: false
+wrap-y: false
+smooth:
+  value: 0.8
+blend-mode: cutout
+filters:
+- name: center
+  left: 0.1875
+  top: 0.1875
+  width: 0.625
+  height: 0.625
+  normal-curve-x: 90
+  normal-curve-y: 90
+  normal-radius-x: 0.5
+  normal-radius-y: 0.5

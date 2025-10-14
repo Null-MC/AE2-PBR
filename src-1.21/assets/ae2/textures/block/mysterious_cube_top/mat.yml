@@ -1,0 +1,12 @@
+wrap-x: false
+wrap-y: false
+height:
+  shift: -0.14
+  scale: 0.6
+smooth:
+  value: 0.9
+f0:
+  value: 0.053
+emissive:
+  value: 0.4
+blend-mode: cutout
