@@ -1,0 +1,17 @@
+wrap-x: false
+wrap-y: false
+color:
+  value: '#DEDFE3'
+smooth:
+  value: 0.9
+emissive:
+  value: 0.1
+blend-mode: cutout
+filters:
+- name: center
+  left: 0.25
+  top: 0.25
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 55
+  normal-curve-y: 45

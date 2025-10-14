@@ -1,0 +1,5 @@
+normal:
+  method: sobel-high
+  noise: 2
+f0:
+  value: 0.04

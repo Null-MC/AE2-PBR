@@ -1,0 +1,12 @@
+wrap-x: true
+wrap-y: false
+normal:
+  strength: 2
+  method: sobel-low
+  noise: 1
+  curve-y: 90
+  radius-y: 0.25
+f0:
+  value: 0.053
+blend-mode: cutout
+filters: []

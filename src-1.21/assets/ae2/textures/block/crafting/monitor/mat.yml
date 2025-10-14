@@ -3,7 +3,7 @@ wrap-y: false
 normal:
   strength: 2
   method: sobel-low
-  noise: 0.5
+  noise: 1
   curve-x: 90
   curve-y: 90
   radius-x: 0.25
@@ -11,12 +11,12 @@ normal:
 f0:
   value: 0.053
 emissive:
-  scale: 0.04
+  scale: 0.08
 filters:
 - name: center
-  left: 0.1875
-  top: 0.1875
-  width: 0.625
-  height: 0.625
-  normal-curve-x: 60
-  normal-curve-y: 60
+  left: 0.25
+  top: 0.25
+  width: 0.5
+  height: 0.5
+  normal-curve-x: 30
+  normal-curve-y: 30

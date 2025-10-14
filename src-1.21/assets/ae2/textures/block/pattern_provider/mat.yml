@@ -12,3 +12,11 @@ f0:
   value: 0.053
 emissive:
   scale: 0.04
+filters:
+- name: center
+  left: 0.1875
+  top: 0.1875
+  width: 0.625
+  height: 0.625
+  normal-curve-x: 60
+  normal-curve-y: 60
