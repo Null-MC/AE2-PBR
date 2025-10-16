@@ -54,10 +54,6 @@ jobs:
           modrinth-featured: true
           modrinth-loaders: minecraft
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          github-draft: true
-          github-prerelease: true
-          github-tag: v${{ github.run_number }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           dependencies: |
             ae2(optional){modrinth:XxWD5pD3}
       - name: Publish 1.21 to Modrinth
@@ -84,7 +80,6 @@ jobs:
             ae2(optional){modrinth:XxWD5pD3}
       - name: Release
         uses: softprops/action-gh-release@v2
-        if: github.ref_type == 'tag'
         with:
           body: TODO
           draft: true
