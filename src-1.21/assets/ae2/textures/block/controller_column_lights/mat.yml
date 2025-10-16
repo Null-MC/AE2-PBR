@@ -5,5 +5,5 @@ smooth:
 f0:
   value: 0.04
 emissive:
-  scale: 0.5
+  scale: 0.36
 blend-mode: cutout

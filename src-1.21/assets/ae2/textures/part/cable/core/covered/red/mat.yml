@@ -1,0 +1,20 @@
+wrap-x: false
+wrap-y: false
+normal:
+  strength: 0.01
+  method: sobel-low
+  noise: 2
+f0:
+  value: 0.04
+sss:
+  scale: 0.6
+model: ae2:part/cable/covered/center
+blend-mode: cutout
+filters:
+- name: center
+  left: 0.3125
+  top: 0.3125
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90

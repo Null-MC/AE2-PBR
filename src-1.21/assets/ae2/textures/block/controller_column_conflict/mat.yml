@@ -1,4 +1,6 @@
 wrap-x: false
-blend-mode: cutout
 normal:
   strength: 0.01
+emissive:
+  scale: 0.6
+blend-mode: cutout

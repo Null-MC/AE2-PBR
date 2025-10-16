@@ -1,0 +1,26 @@
+wrap-x: false
+wrap-y: false
+normal:
+  strength: 0.01
+  method: sobel-low
+  noise: 2
+f0:
+  value: 0.04
+sss:
+  scale: 0.6
+blend-mode: cutout
+filters:
+- name: horizontal
+  left: 0
+  top: 0.3125
+  width: 1
+  height: 0.375
+  normal-curve-y: 90
+  normal-radius-y: 0.8
+- name: vertical
+  left: 0.3125
+  top: 0
+  width: 0.375
+  height: 1
+  normal-curve-x: 90
+  normal-radius-x: 0.8

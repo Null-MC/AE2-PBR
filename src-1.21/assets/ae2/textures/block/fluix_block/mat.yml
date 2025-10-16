@@ -1,0 +1,24 @@
+wrap-x: false
+wrap-y: false
+height:
+  scale: 0
+normal:
+  strength: 2.2
+  method: sobel-low
+  noise: 4
+  curve-x: 90
+  curve-y: 90
+  radius-x: 0.25
+  radius-y: 0.25
+sss:
+  scale: 0.2
+emissive:
+  scale: 0.3
+filters:
+- name: center
+  left: 0.3125
+  top: 0.3125
+  width: 0.375
+  height: 0.375
+  normal-curve-x: 90
+  normal-curve-y: 90

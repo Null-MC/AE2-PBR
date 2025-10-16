@@ -1,7 +1,6 @@
 wrap-x: false
 wrap-y: false
-smooth:
-  value: 0.8
+model: ae2:part/cable/dense_smart/center
 blend-mode: cutout
 filters:
 - name: center
@@ -11,5 +10,3 @@ filters:
   height: 0.625
   normal-curve-x: 90
   normal-curve-y: 90
-  normal-radius-x: 0.5
-  normal-radius-y: 0.5

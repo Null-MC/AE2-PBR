@@ -1,0 +1,10 @@
+texture-size: 64
+wrap-x: false
+wrap-y: false
+color:
+  value: '#F2F2F2'
+smooth:
+  value: 0.92
+emissive:
+  value: 0.1
+blend-mode: cutout
