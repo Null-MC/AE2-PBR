@@ -15,25 +15,25 @@ jobs:
         with:
           project: src-1.20/project.yml
           profile: AE2-LabPBR
-          zip: AE2-LabPBR-1.20-v${{ github.run_number }}.zip
+          zip: AE2-1.20-LabPBR-v${{ github.run_number }}.zip
       - name: Compile OldPBR 1.20
         uses: null511/PixelGraph.GitHubAction@main
         with:
           project: src-1.20/project.yml
           profile: AE2-OldPBR
-          zip: AE2-OldPBR-1.20-v${{ github.run_number }}.zip
+          zip: AE2-1.20-OldPBR-v${{ github.run_number }}.zip
       - name: Compile LabPBR 1.21
         uses: null511/PixelGraph.GitHubAction@main
         with:
           project: src-1.21/project.yml
           profile: AE2-LabPBR
-          zip: AE2-LabPBR-1.21-v${{ github.run_number }}.zip
+          zip: AE2-1.21-LabPBR-v${{ github.run_number }}.zip
       - name: Compile OldPBR 1.21
         uses: null511/PixelGraph.GitHubAction@main
         with:
           project: src-1.21/project.yml
           profile: AE2-OldPBR
-          zip: AE2-OldPBR-1.21-v${{ github.run_number }}.zip
+          zip: AE2-1.21-OldPBR-v${{ github.run_number }}.zip
       - name: Publish 1.20 to Modrinth
         uses: Kir-Antipov/mc-publish@v3.3
         with:
@@ -46,8 +46,8 @@ jobs:
             forge
             quilt
           files: |
-            AE2-LabPBR-1.20-v${{ github.run_number }}.zip
-            AE2-OldPBR-1.20-v${{ github.run_number }}.zip
+            AE2-1.20-LabPBR-v${{ github.run_number }}.zip
+            AE2-1.20-OldPBR-v${{ github.run_number }}.zip
           game-versions: '1.20.1'
           game-version-filter: none
           modrinth-id: 5x1MHOKX
@@ -72,17 +72,26 @@ jobs:
             forge
             quilt
           files: |
-            AE2-LabPBR-1.21-v${{ github.run_number }}.zip
-            AE2-OldPBR-1.21-v${{ github.run_number }}.zip
+            AE2-1.21-LabPBR-v${{ github.run_number }}.zip
+            AE2-1.21-OldPBR-v${{ github.run_number }}.zip
           game-versions: '1.21.1'
           game-version-filter: none
           modrinth-id: 5x1MHOKX
           modrinth-featured: true
           modrinth-loaders: minecraft
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          github-draft: true
-          github-prerelease: true
-          github-tag: v${{ github.run_number }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           dependencies: |
             ae2(optional){modrinth:XxWD5pD3}
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref_type == 'tag'
+        with:
+          body: TODO
+          draft: true
+          prerelease: true
+          tag_name: v${{ github.run_number }}
+          files: |
+            AE2-1.20-LabPBR-v${{ github.run_number }}.zip
+            AE2-1.20-OldPBR-v${{ github.run_number }}.zip
+            AE2-1.21-LabPBR-v${{ github.run_number }}.zip
+            AE2-1.21-OldPBR-v${{ github.run_number }}.zip
